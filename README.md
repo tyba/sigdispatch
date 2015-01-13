@@ -2,6 +2,8 @@
 
 A simple events library for Python.
 
+[![image](https://readthedocs.org/projects/sigdispatch/badge/?version=latest)](http://sigdispatch.readthedocs.org/) [![Build Status](https://travis-ci.org/Tyba/sigdispatch.svg)](https://travis-ci.org/Tyba/sigdispatch)
+
 ```python
 >>> import sigdispatch
 >>> def on_foo(payload):
@@ -18,3 +20,5 @@ A simple events library for Python.
 Received [1, 2, 3].
 Received [1, 2, 3] too.
 ```
+
+See [the documentation](http://sigdispatch.readthedocs.org/).
