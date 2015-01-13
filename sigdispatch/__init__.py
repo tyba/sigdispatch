@@ -32,7 +32,7 @@ See :py:class:`SignalDispatcher` for details of the intrinsics.
    :py:func:`sigdispatch.observe`, :py:func:`emit` and
    :py:func:`on_exceptions` are method invocations of this object.
 
-.. automodule:: sigdispatch.SignalDispatcher
+.. automodule:: sigdispatch.signal_dispatcher
    :members:
 """
 
