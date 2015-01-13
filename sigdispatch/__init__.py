@@ -12,9 +12,9 @@ Sigdispatch is a simple events library.
     ...     print('Received %s too.' % payload)
     ...
     >>> sigdispatch.observe('foo', on_foo) #doctest: +ELLIPSIS
-    <function unobserve at 0x...>
+    <function ...>
     >>> sigdispatch.observe('foo', another_on_foo) #doctest: +ELLIPSIS
-    <function unobserve at 0x...>
+    <function ...>
     >>> sigdispatch.emit('foo', [1, 2, 3]) #doctest: +ELLIPSIS
     Received ...
     Received ...
