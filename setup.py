@@ -13,4 +13,7 @@ setup(
     packages=[
         'sigdispatch',
     ],
+    install_requires=[
+        'sphinxcontrib-napoleon',
+    ],
 )
