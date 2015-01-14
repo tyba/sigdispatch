@@ -57,16 +57,16 @@ class SignalDispatcher(object):
     is *synchronous*; the execution of the emitter will be resumed once the
     execution of all those observers finish.
 
-    A ``SignalDispatcher`` instance provides :py:meth:`emit` for emitting
-    signals, and :py:meth:`observe` for registering callbacks for getting
-    notified when signals of a specific code are emitted (that's called
-    **observing on** a signal code).
+    A ``SignalDispatcher`` instance provides :py:meth:`SignalDispatcher.emit`
+    for emitting signals, and :py:meth:`SignalDispatcher.observe` for
+    registering callbacks for getting notified when signals of a specific code
+    are emitted (that's called **observing on** a signal code).
 
     All **exceptions** raised in a dispatch by the observers will be caught, so
     they won't stop other observers from being called. As the signal emitter
     shouldn't know about the observers, nor about the exceptions they may
     raise, they aren't raised again. Instead, a callback for when exceptions
-    happen can be registered with :py:meth:`on_exceptions`.
+    happen can be registered with :py:meth:`SignalDispatcher.on_exceptions`.
     """
 
     def __init__(self):
