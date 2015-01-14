@@ -1,19 +1,14 @@
 import unittest
 import mock
-import sigdispatch.signal_dispatcher as signal_dispatcher
+import sigdispatch
 import doctest
 
-SignalDispatcher = signal_dispatcher.SignalDispatcher
+SignalDispatcher = sigdispatch.SignalDispatcher
 
 
 class SignalDispatcherTest(unittest.TestCase):
     def setUp(self):
         self.sd = SignalDispatcher()
-
-    def test_doc(self):
-        fails, tested = doctest.testmod(signal_dispatcher)
-        if fails > 0:
-            self.fail('Doctest failed!')
 
     def test_emit_with_no_observers(self):
         self.sd.emit('foo')
