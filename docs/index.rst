@@ -11,6 +11,9 @@ Contents:
 .. automodule:: sigdispatch
    :members:
 
+.. automodule:: sigdispatch.observers
+	:members:
+
 
 Indices and tables
 ==================
