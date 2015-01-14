@@ -1,0 +1,2 @@
+.. automodule:: sigdispatch.observers
+	:members:
