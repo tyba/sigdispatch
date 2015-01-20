@@ -1,8 +1,8 @@
-# sigdispatch
+# sigdispatch [![image](https://readthedocs.org/projects/sigdispatch/badge/?version=latest)](http://sigdispatch.readthedocs.org/) [![Build Status](https://travis-ci.org/tyba/sigdispatch.svg)](https://travis-ci.org/tyba/sigdispatch)
+
 
 A simple events library for Python.
 
-[![image](https://readthedocs.org/projects/sigdispatch/badge/?version=latest)](http://sigdispatch.readthedocs.org/) [![Build Status](https://travis-ci.org/Tyba/sigdispatch.svg)](https://travis-ci.org/Tyba/sigdispatch)
 
 ```python
 >>> import sigdispatch
