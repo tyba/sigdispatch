@@ -1,7 +1,9 @@
-import unittest
-import mock
-import sigdispatch
 import doctest
+import unittest
+
+import mock
+
+import sigdispatch
 
 SignalDispatcher = sigdispatch.SignalDispatcher
 

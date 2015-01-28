@@ -1,9 +1,11 @@
-from sigdispatch import SignalDispatcher, default_dispatcher
-from sigdispatch.observers import Observer, AlreadyRegisteredException
-import sigdispatch.observers
-import unittest
-import mock
 import doctest
+import unittest
+
+import mock
+
+import sigdispatch.observers
+from sigdispatch import SignalDispatcher, default_dispatcher
+from sigdispatch.observers import AlreadyRegisteredException, Observer
 
 
 class ObserverTest(unittest.TestCase):

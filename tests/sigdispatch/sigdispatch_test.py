@@ -1,8 +1,10 @@
-import unittest
-import mock
-import sigdispatch
 import contextlib
 import doctest
+import unittest
+
+import mock
+
+import sigdispatch
 
 
 class ModuleTest(unittest.TestCase):

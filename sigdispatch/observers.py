@@ -21,6 +21,7 @@ Helpers for using :py:mod:`sigdispatch` in a conventional style.
 
 """
 from abc import ABCMeta
+
 import sigdispatch
 
 
