@@ -39,5 +39,5 @@ setup(
         'Programming Language :: Python :: 3.4',
     ],
     packages=find_packages(exclude=['docs', 'tests*']),
-    install_requires=[],
+    install_requires=['mock == 1.0.1'],
 )
